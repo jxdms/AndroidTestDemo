@@ -1,2 +1,2 @@
-# Basic-Android-for-Activity2
+# Basic-Android-for-Activity
 this is an example
