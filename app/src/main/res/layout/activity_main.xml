@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="125sp"
+            android:layout_height="125sp"
+            android:alpha="0.6"
+            app:srcCompat="@drawable/helicopter">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/mainTV_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_txt"
+            android:gravity="center"
+            android:layout_marginBottom="32sp"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_height="wrap_content"
+            android:minHeight="35sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/user_name"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="28sp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:layout_height="wrap_content"
+            android:minHeight="35sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/user_pwd"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
